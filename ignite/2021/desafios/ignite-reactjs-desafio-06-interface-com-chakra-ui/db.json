@@ -1,0 +1,250 @@
+{
+	"continents": [
+		{
+			"id": "africa",
+			"name": "Africa",
+			"description": "Africa is the world's second-largest and second-most populous continent, after Asia in both cases. At about 30.3 million km2 (11.7 million square miles) including adjacent islands, it covers 6% of Earth's total surface area and 20% of its land area.[7] With 1.3 billion people[1][2] as of 2018, it accounts for about 16% of the world's human population. Africa's population is the youngest amongst all the continents;[8][9] the median age in 2012 was 19.7, when the worldwide median age was 30.4.[10] Despite a wide range of natural resources, Africa is the least wealthy continent per capita, in part due to geographic impediments,[11] legacies of European colonization in Africa and the Cold War,[12][13][14][15][16] predatory/neo-colonialistic activities by Western nations and China, and undemocratic rule and deleterious policies.[11] Despite this low concentration of wealth, recent economic expansion and the large and young population make Africa an important economic market in the broader global context.",
+			"number_of_countries": 50,
+			"number_of_languages": 160,
+			"number_of_cities_in_top_100": 58,
+			"image_url": "/assets/continents/africa-banner.jpeg",
+			"top_5_cities": [
+				{
+					"name": "London",
+					"country": "England",
+					"image_url": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+					"country_flag_url": "https://image.flaticon.com/icons/png/32/197/197374.png"
+				},
+				{
+					"name": "Paris",
+					"country": "France",
+					"image_url": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+					"country_flag_url": "https://image.flaticon.com/icons/png/32/197/197560.png"
+				},
+				{
+					"name": "Rome",
+					"country": "Italy",
+					"image_url": "https://images.unsplash.com/photo-1529260830199-42c24126f198?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+					"country_flag_url": "https://image.flaticon.com/icons/png/32/197/197626.png"
+				},
+				{
+					"name": "Prague",
+					"country": "Czech Republic",
+					"image_url": "https://images.unsplash.com/photo-1519677100203-a0e668c92439?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+					"country_flag_url": "https://image.flaticon.com/icons/png/32/197/197576.png"
+				},
+				{
+					"name": "Amsterdam",
+					"country": "Netherlands",
+					"image_url": "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+					"country_flag_url": "https://image.flaticon.com/icons/png/32/197/197441.png"
+				}
+			]
+		},
+		{
+			"id": "asia",
+			"name": "Asia",
+			"description": "Asia is Earth's largest and most populous continent, located primarily in the Eastern and Northern Hemispheres. It shares the continental landmass of Eurasia with the continent of Europe and the continental landmass of Afro-Eurasia with both Europe and Africa. Asia covers an area of 44,579,000 square kilometres (17,212,000 sq mi), about 30% of Earth's total land area and 8.7% of the Earth's total surface area. The continent, which has long been home to the majority of the human population,[7] was the site of many of the first civilizations. Its 4.5 billion people (as of June 2019) constitute roughly 60% of the world's population.",
+			"number_of_countries": 50,
+			"number_of_languages": 160,
+			"number_of_cities_in_top_100": 58,
+			"image_url": "/assets/continents/asia-banner.jpeg",
+			"top_5_cities": [
+				{
+					"name": "Tokyo",
+					"country": "Japan",
+					"image_url": "https://images.unsplash.com/photo-1542052125323-e69ad37a47c2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+					"country_flag_url": "https://image.flaticon.com/icons/png/32/197/197604.png"
+				},
+				{
+					"name": "Hong Kong",
+					"country": "China",
+					"image_url": "https://images.unsplash.com/photo-1594973782943-3314fe063f68?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+					"country_flag_url": "https://image.flaticon.com/icons/png/32/197/197375.png"
+				},
+				{
+					"name": "Mumbai",
+					"country": "India",
+					"image_url": "https://images.unsplash.com/photo-1562979314-bee7453e911c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+					"country_flag_url": "https://image.flaticon.com/icons/png/32/197/197419.png"
+				},
+				{
+					"name": "Bangkok",
+					"country": "Thailand",
+					"image_url": "https://images.unsplash.com/photo-1582652840955-5da18538b6dd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=256&q=80",
+					"country_flag_url": "https://image.flaticon.com/icons/png/32/197/197452.png"
+				},
+				{
+					"name": "Seoul",
+					"country": "South Korea",
+					"image_url": "https://images.unsplash.com/photo-1584664736667-8bf747a4f11d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+					"country_flag_url": "https://image.flaticon.com/icons/png/32/197/197582.png"
+				}
+			]
+		},
+		{
+			"id": "europe",
+			"name": "Europe",
+			"description": "Europe is a continent located entirely in the Northern Hemisphere and mostly in the Eastern Hemisphere. It comprises the westernmost peninsulas of the continental landmass of Eurasia, and is bordered by the Arctic Ocean to the north, the Atlantic Ocean to the west, the Mediterranean Sea to the south, and Asia to the east. Europe is commonly considered to be separated from Asia by the watershed of the Ural Mountains, the Ural River, the Caspian Sea, the Greater Caucasus, the Black Sea, and the waterways of the Turkish Straits. Although much of this border is over land, Europe is generally accorded the status of a full continent because of its great physical size and the weight of its history and traditions.",
+			"number_of_countries": 50,
+			"number_of_languages": 160,
+			"number_of_cities_in_top_100": 58,
+			"image_url": "/assets/continents/europe-banner.jpeg",
+			"top_5_cities": [
+				{
+					"name": "London",
+					"country": "England",
+					"image_url": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+					"country_flag_url": "https://image.flaticon.com/icons/png/32/197/197374.png"
+				},
+				{
+					"name": "Paris",
+					"country": "France",
+					"image_url": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+					"country_flag_url": "https://image.flaticon.com/icons/png/32/197/197560.png"
+				},
+				{
+					"name": "Rome",
+					"country": "Italy",
+					"image_url": "https://images.unsplash.com/photo-1529260830199-42c24126f198?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+					"country_flag_url": "https://image.flaticon.com/icons/png/32/197/197626.png"
+				},
+				{
+					"name": "Prague",
+					"country": "Czech Republic",
+					"image_url": "https://images.unsplash.com/photo-1519677100203-a0e668c92439?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+					"country_flag_url": "https://image.flaticon.com/icons/png/32/197/197576.png"
+				},
+				{
+					"name": "Amsterdam",
+					"country": "Netherlands",
+					"image_url": "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+					"country_flag_url": "https://image.flaticon.com/icons/png/32/197/197441.png"
+				}
+			]
+		},
+		{
+			"id": "north-america",
+			"name": "North America",
+			"description": "North America is a continent entirely within the Northern Hemisphere and almost all within the Western Hemisphere. It can also be described as the northern subcontinent of the Americas. It is bordered to the north by the Arctic Ocean, to the east by the Atlantic Ocean, to the southeast by South America and the Caribbean Sea, and to the west and south by the Pacific Ocean. Because it is on the North American Tectonic Plate, Greenland is included as part of North America geographically.",
+			"number_of_countries": 50,
+			"number_of_languages": 160,
+			"number_of_cities_in_top_100": 58,
+			"image_url": "/assets/continents/north-america-banner.jpeg",
+			"top_5_cities": [
+				{
+					"name": "London",
+					"country": "England",
+					"image_url": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+					"country_flag_url": "https://image.flaticon.com/icons/png/32/197/197374.png"
+				},
+				{
+					"name": "Paris",
+					"country": "France",
+					"image_url": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+					"country_flag_url": "https://image.flaticon.com/icons/png/32/197/197560.png"
+				},
+				{
+					"name": "Rome",
+					"country": "Italy",
+					"image_url": "https://images.unsplash.com/photo-1529260830199-42c24126f198?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+					"country_flag_url": "https://image.flaticon.com/icons/png/32/197/197626.png"
+				},
+				{
+					"name": "Prague",
+					"country": "Czech Republic",
+					"image_url": "https://images.unsplash.com/photo-1519677100203-a0e668c92439?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+					"country_flag_url": "https://image.flaticon.com/icons/png/32/197/197576.png"
+				},
+				{
+					"name": "Amsterdam",
+					"country": "Netherlands",
+					"image_url": "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+					"country_flag_url": "https://image.flaticon.com/icons/png/32/197/197441.png"
+				}
+			]
+		},
+		{
+			"id": "south-america",
+			"name": "South America",
+			"description": "South America is a continent entirely in the Western Hemisphere[note 6] and mostly in the Southern Hemisphere, with a relatively small portion in the Northern Hemisphere. It can also be described as the southern subcontinent of the Americas. The reference to South America instead of other regions (like Latin America or the Southern Cone) has increased in recent decades due to changing geopolitical dynamics (in particular, the rise of Brazil).",
+			"number_of_countries": 50,
+			"number_of_languages": 160,
+			"number_of_cities_in_top_100": 58,
+			"image_url": "/assets/continents/south-america-banner.jpeg",
+			"top_5_cities": [
+				{
+					"name": "London",
+					"country": "England",
+					"image_url": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+					"country_flag_url": "https://image.flaticon.com/icons/png/32/197/197374.png"
+				},
+				{
+					"name": "Paris",
+					"country": "France",
+					"image_url": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+					"country_flag_url": "https://image.flaticon.com/icons/png/32/197/197560.png"
+				},
+				{
+					"name": "Rome",
+					"country": "Italy",
+					"image_url": "https://images.unsplash.com/photo-1529260830199-42c24126f198?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+					"country_flag_url": "https://image.flaticon.com/icons/png/32/197/197626.png"
+				},
+				{
+					"name": "Prague",
+					"country": "Czech Republic",
+					"image_url": "https://images.unsplash.com/photo-1519677100203-a0e668c92439?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+					"country_flag_url": "https://image.flaticon.com/icons/png/32/197/197576.png"
+				},
+				{
+					"name": "Amsterdam",
+					"country": "Netherlands",
+					"image_url": "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+					"country_flag_url": "https://image.flaticon.com/icons/png/32/197/197441.png"
+				}
+			]
+		},
+		{
+			"id": "oceania",
+			"name": "Oceania",
+			"description": "Oceania is a geographic region that includes Australasia, Melanesia, Micronesia and Polynesia.[5] Spanning the Eastern and Western Hemispheres, Oceania has a land area of 8,525,989 square kilometres (3,291,903 sq mi) and a population of over 41 million. When compared with the continents, the region of Oceania is the smallest in land area and the second smallest in population after Antarctica.",
+			"number_of_countries": 50,
+			"number_of_languages": 160,
+			"number_of_cities_in_top_100": 58,
+			"image_url": "/assets/continents/oceania-banner.jpeg",
+			"top_5_cities": [
+				{
+					"name": "London",
+					"country": "England",
+					"image_url": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+					"country_flag_url": "https://image.flaticon.com/icons/png/32/197/197374.png"
+				},
+				{
+					"name": "Paris",
+					"country": "France",
+					"image_url": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+					"country_flag_url": "https://image.flaticon.com/icons/png/32/197/197560.png"
+				},
+				{
+					"name": "Rome",
+					"country": "Italy",
+					"image_url": "https://images.unsplash.com/photo-1529260830199-42c24126f198?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+					"country_flag_url": "https://image.flaticon.com/icons/png/32/197/197626.png"
+				},
+				{
+					"name": "Prague",
+					"country": "Czech Republic",
+					"image_url": "https://images.unsplash.com/photo-1519677100203-a0e668c92439?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+					"country_flag_url": "https://image.flaticon.com/icons/png/32/197/197576.png"
+				},
+				{
+					"name": "Amsterdam",
+					"country": "Netherlands",
+					"image_url": "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+					"country_flag_url": "https://image.flaticon.com/icons/png/32/197/197441.png"
+				}
+			]
+		}
+	]
+}

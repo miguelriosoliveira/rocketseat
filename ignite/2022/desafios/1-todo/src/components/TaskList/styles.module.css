@@ -1,0 +1,107 @@
+.taskListHeader {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: var(--font-sm);
+  margin: 4rem 0 1.5rem;
+}
+
+.taskListHeader .createdTasksLabel {
+  color: var(--blue);
+}
+
+.taskListHeader .finishedTasksLabel {
+  color: var(--purple);
+}
+
+.taskListHeader .badge {
+  background: var(--gray-400);
+  color: var(--gray-200);
+  font-size: var(--font-xs);
+  padding: 0.125rem 0.5rem;
+  border-radius: 999px;
+  margin-left: 0.5rem;
+}
+
+.taskList .task {
+  font-size: var(--font-sm);
+  background: var(--gray-500);
+  border: 1px solid var(--gray-400);
+  border-radius: 8px;
+  padding: 1rem;
+  transition: all 0.2s;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+
+.taskList .task + .task {
+  margin-top: 0.75rem;
+}
+
+.taskList .task .taskContent {
+  flex: 1;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: auto 1fr;
+  align-items: start;
+  gap: 0.75rem;
+}
+
+.taskList .task .checkbox {
+  margin-top: 0.1rem;
+}
+
+.taskList .task .checkedCheckbox {
+  background: var(--gray-100);
+  border-radius: 50%;
+  transition: fill 0.2s;
+}
+
+.taskList .task .checkedCheckbox:hover {
+  fill: var(--purple);
+}
+
+.taskList .task .unCheckedCheckbox {
+  transition: all 0.2s;
+}
+
+.taskList .task .unCheckedCheckbox:hover {
+  fill: var(--blue-dark);
+  border-radius: 50%;
+  background: var(--blue-dark-opacity);
+}
+
+.taskList .checked {
+  border: 1px solid var(--gray-500);
+  color: var(--gray-300);
+  text-decoration-line: line-through;
+}
+
+.taskList .task .deleteButton {
+  background: transparent;
+  color: var(--gray-300);
+  display: flex;
+  padding: 0.3rem;
+  transition: all 0.2s;
+}
+
+.taskList .task .deleteButton:hover {
+  background: var(--gray-400);
+  color: var(--danger);
+  border-radius: 8px;
+}
+
+.taskList .emptyMessage {
+  color: var(--gray-300);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 1px solid var(--gray-400);
+  border-radius: 8px;
+  padding: 4rem 0;
+}
+
+.taskList .emptyMessage > svg {
+  margin-bottom: 1rem;
+}

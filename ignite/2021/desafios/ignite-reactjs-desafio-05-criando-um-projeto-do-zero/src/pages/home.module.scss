@@ -1,0 +1,67 @@
+.container {
+  max-width: 720px;
+  margin: 0 auto 3rem;
+}
+
+.posts {
+  a {
+    display: block;
+
+    & + a {
+      margin-top: 3rem;
+    }
+
+    strong {
+      display: block;
+      color: var(--heading);
+      font-size: 1.5rem;
+      line-height: 2rem;
+      transition: color 0.2s;
+    }
+
+    p {
+      color: var(--body);
+      margin-top: 0.5rem;
+      margin-bottom: 1.5rem;
+      line-height: 1.625rem;
+      transition: color 0.2s;
+    }
+
+    &:hover {
+      strong {
+        color: var(--highlight);
+      }
+      p {
+        color: var(--highlight-dark);
+      }
+    }
+
+    .timeAndAuthor {
+      font-size: 0.875rem;
+      color: var(--info);
+
+      display: grid;
+      grid-auto-flow: column;
+      justify-content: start;
+      gap: 1.5rem;
+
+      time,
+      span {
+        display: flex;
+        align-items: center;
+
+        svg {
+          margin-right: 8px;
+        }
+      }
+    }
+  }
+}
+
+.loadMore {
+  background: transparent;
+  border: 0;
+  margin-top: 4rem;
+  color: var(--highlight);
+  font-weight: 600;
+}

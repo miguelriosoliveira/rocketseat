@@ -1,0 +1,78 @@
+.container {
+  img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    margin-bottom: 2rem;
+  }
+
+  .postContainer {
+    max-width: 720px;
+    margin: 0 auto 3rem;
+
+    .post {
+      .timeAndAuthor {
+        font-size: 0.875rem;
+        margin-bottom: 4rem;
+        color: var(--info);
+
+        display: grid;
+        grid-auto-flow: column;
+        justify-content: start;
+        gap: 1.5rem;
+
+        time,
+        span {
+          display: flex;
+          align-items: center;
+
+          svg {
+            margin-right: 8px;
+          }
+        }
+      }
+
+      h1 {
+        font-size: 3rem;
+        margin-bottom: 1.5rem;
+      }
+
+      h2 {
+        font-size: 2.25rem;
+        margin: 2.25rem 0;
+      }
+
+      p {
+        font-size: 1.125rem;
+        line-height: 140%;
+        & + p {
+          margin-top: 1.125rem;
+        }
+      }
+
+      border-bottom: 1px solid #d7d7d710;
+      padding-bottom: 3.75rem;
+      margin-bottom: 3.125rem;
+    }
+
+    .neighborPosts {
+      display: flex;
+      justify-content: space-between;
+
+      a {
+        max-width: 300px;
+        transition: color 0.2s;
+        &:hover {
+          color: var(--highlight);
+        }
+        p {
+          color: var(--highlight);
+        }
+
+        &.nextPost {
+          text-align: right;
+        }
+      }
+    }
+  }
+}

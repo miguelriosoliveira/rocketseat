@@ -1,0 +1,31 @@
+.addTask {
+  display: flex;
+}
+
+.addTask input {
+  flex: 1;
+  background: var(--gray-500);
+  border: 1px solid var(--gray-700);
+  border-radius: 8px;
+  margin-right: 0.5rem;
+  padding: 1rem;
+}
+
+.addTask button {
+  height: 3.25rem;
+  width: 5.625rem;
+  background: var(--blue-dark);
+  transition: background 0.2s, filter 0.2s;
+}
+
+.addTask button svg {
+  vertical-align: text-top;
+}
+
+.addTask button:hover {
+  background: var(--blue);
+}
+
+.addTask button:disabled {
+  filter: brightness(0.7);
+}

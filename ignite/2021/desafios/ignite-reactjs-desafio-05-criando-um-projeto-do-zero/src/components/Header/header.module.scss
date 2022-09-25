@@ -1,0 +1,14 @@
+.container {
+  .containerLogo {
+    max-width: 720px;
+    height: 100px;
+    margin: 1rem auto;
+
+    display: flex;
+    align-items: center;
+
+    img {
+      cursor: pointer;
+    }
+  }
+}
