@@ -1,6 +1,7 @@
 import { zodResolver } from '@hookform/resolvers/zod';
+import { differenceInSeconds } from 'date-fns';
 import { Play } from 'phosphor-react';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useForm } from 'react-hook-form';
 import * as zod from 'zod';
 
@@ -26,6 +27,7 @@ type NewCycleFormSchema = zod.infer<typeof newCycleFormSchema>;
 
 interface Cycle extends NewCycleFormSchema {
 	id: string;
+	startDate: Date;
 }
 
 export function Home() {
@@ -38,10 +40,12 @@ export function Home() {
 	});
 
 	function handleCreateNewCycle({ task, minutesAmount }: NewCycleFormSchema) {
+		const now = new Date();
 		const newCycle: Cycle = {
-			id: Date.now().toString(),
+			id: now.getDate().toString(),
 			task,
 			minutesAmount,
+			startDate: now,
 		};
 		setCycles(state => [...state, newCycle]);
 		setActiveCycleId(newCycle.id);
@@ -53,10 +57,22 @@ export function Home() {
 	const activeCycle = cycles.find(cycle => cycle.id === activeCycleId);
 	const totalSeconds = activeCycle ? activeCycle.minutesAmount * 60 : 0;
 	const currentSeconds = activeCycle ? totalSeconds - secondsPassed : 0;
-	const minutes = Math.floor(currentSeconds * 60)
+	const minutes = Math.floor(currentSeconds / 60)
 		.toString()
 		.padStart(2, '0');
 	const seconds = String(currentSeconds % 60).padStart(2, '0');
+
+	useEffect(() => {
+		if (!activeCycle || currentSeconds <= 0) {
+			return;
+		}
+		setTimeout(() => {
+			const diffSeconds = differenceInSeconds(new Date(), activeCycle.startDate);
+			setSecondsPassed(diffSeconds);
+		}, 1000);
+	}, [currentSeconds]);
+
+	console.log({ minutes, seconds, secondsPassed, currentSeconds });
 
 	return (
 		<HomeContainer>
