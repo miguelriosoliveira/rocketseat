@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 export const HistoryContainer = styled.main`
 	flex: 1;
@@ -68,10 +68,27 @@ export const Status = styled.span<StatusProps>`
 	gap: 0.5rem;
 
 	&::before {
+		@keyframes flicker {
+			0% {
+				opacity: 1;
+			}
+			50% {
+				opacity: 0;
+			}
+			100% {
+				opacity: 1;
+			}
+		}
+
 		content: '';
 		width: 0.5rem;
 		height: 0.5rem;
 		border-radius: 50%;
 		background: ${props => props.theme[STATUS_MAP[props.status]]};
+		${props =>
+			props.status === 'inProgress' &&
+			css`
+				animation: flicker 1.5s infinite;
+			`}
 	}
 `;
